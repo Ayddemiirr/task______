@@ -1,0 +1,79 @@
+.slider {
+    position: relative;
+}
+
+.slider img {
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: .5s;
+}
+
+.slider .icons {
+    position: relative;
+}
+
+.slider .icons i {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.slider .icons i:nth-child(1) {
+    top: 200px;
+    left: 10px;
+}
+
+.slider .icons i:nth-child(2) {
+    top: 200px;
+    right: 10px;
+}
+
+.active {
+    opacity: 1 !important;
+}
+
+#drop-elem {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    background-color: magenta;
+    float: right;
+}
+
+#drop-elem2 {
+    width: 400px;
+    height: 300px;
+    background-color: blue;
+}
+
+#drag-elem1 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+#drag-elem2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+#drag-elem3 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+#drag-elem4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#drag-elem5 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
